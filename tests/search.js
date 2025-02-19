@@ -1,6 +1,6 @@
-function searchForProduct() {
+function searchForProduct(productName) {
     if (str.trim().length === 0) console.log('Product name is not provided')
-    console.log(`${str} is searched!`);
+    console.log(`${productName} is searched!`);
 }
 
 
